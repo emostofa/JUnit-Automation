@@ -58,7 +58,7 @@ public class DigitalUnitTests {
         webDriver.findElements(By.className("ui-checkboxradio-label")).get(0).click();
 
     }
-    @DisplayName("Check Uploads images submission")
+    @DisplayName("Check Uploads images for submission")
     @Test
     public void d()  {
        webDriver.findElement(By.id("edit-uploadocument-upload")).sendKeys(System.getProperty("user.dir")+"/src/test/resources/logo.png");
